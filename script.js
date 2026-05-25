@@ -26,6 +26,13 @@ function calcBMI() {
         
         document.getElementById('result').innerText = `Your BMI is ${bmi.toFixed(1)} (${category})`;
     } else {
-        document.getElementById('result').innerText = "Please enter valid numbers.";
+        document.getElementById('result').innerText = "";
     }
+}
+
+function clearFields() {
+    document.getElementById('w').value = "";
+    document.getElementById('h').value = "";
+    document.getElementById('result').innerText = "";
+    document.getElementById('units').value = "metric";
 }

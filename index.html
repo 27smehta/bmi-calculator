@@ -9,16 +9,16 @@
 
     <p>
         System: 
-        <select id="units">
+        <select id="units" oninput="calcBMI()">
             <option value="metric">Metric (kg, m)</option>
             <option value="imperial">Imperial (lbs, in)</option>
         </select>
     </p>
 
-    <p>Weight: <input type="number" id="w" placeholder="kg or lbs"></p>
-    <p>Height: <input type="number" id="h" placeholder="m or inches"></p>
+    <p>Weight: <input type="number" id="w" placeholder="kg or lbs" oninput="calcBMI()"></p>
+    <p>Height: <input type="number" id="h" placeholder="m or inches" oninput="calcBMI()"></p>
     
-    <button onclick="calcBMI()">Calculate</button>
+    <button class="clear-btn" onclick="clearFields()">Clear</button>
 
     <p id="result"></p>
     <script src="script.js"></script>
