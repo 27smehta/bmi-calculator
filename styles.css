@@ -1,32 +1,30 @@
 body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f5;
-            max-width: 350px;
-            margin: 50px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-                }
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f5;
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
 
-        input {
-            padding: 5px;
-            width: 100px;
-        }
+input, select {
+    padding: 5px;
+    width: 120px; 
+}
 
-        button {
-            padding: 10px 15px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
 
-        #result {
-            font-weight: bold;
-            color: #333;
-            margin-top: 20px;
-        }
-
-
-        
+#result {
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+}

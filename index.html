@@ -7,8 +7,16 @@
 
     <h2>BMI Calculator</h2>
 
-    <p>Weight (kg): <input type="number" id="w"></p>
-    <p>Height (m): <input type="number" id="h"></p>
+    <p>
+        System: 
+        <select id="units">
+            <option value="metric">Metric (kg, m)</option>
+            <option value="imperial">Imperial (lbs, in)</option>
+        </select>
+    </p>
+
+    <p>Weight: <input type="number" id="w" placeholder="kg or lbs"></p>
+    <p>Height: <input type="number" id="h" placeholder="m or inches"></p>
     
     <button onclick="calcBMI()">Calculate</button>
 
