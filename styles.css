@@ -50,3 +50,9 @@ input:focus, select:focus {
     font-size: 1.1em;
     transition: color 0.4s ease-in-out; 
 }
+
+#ideal-weight {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
