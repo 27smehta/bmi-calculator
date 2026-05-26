@@ -15,8 +15,8 @@
         </select>
     </p>
 
-    <p>Weight: <input type="number" id="w" placeholder="kg or lbs" oninput="calcBMI()"></p>
-    <p>Height: <input type="number" id="h" placeholder="m or inches" oninput="calcBMI()"></p>
+    <p><span id="weight-label">Weight (kg):</span> <input type="number" id="w" oninput="calcBMI()"></p>
+    <p><span id="height-label">Height (m):</span> <input type="number" id="h" oninput="calcBMI()"></p>
     
     <button class="clear-btn" onclick="clearFields()">Clear</button>
 
